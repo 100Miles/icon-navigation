@@ -10,13 +10,43 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Abhaya Libre', serif;
+  font-family: "Abhaya Libre", serif;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+.btn {
+  background-color: #15114c;
+  border-color: #15114c;
+}
+
+.masthead {
+  background-color: #423ca3;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
